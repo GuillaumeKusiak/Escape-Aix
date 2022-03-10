@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Escape-Aix/static/css/main.2aaa3095.css",
+    "main.js": "/Escape-Aix/static/js/main.cb670f2f.js",
+    "static/media/La-Chute-des-multinationales.png": "/Escape-Aix/static/media/La-Chute-des-multinationales.f0ffd794fe0802d5258f.png",
+    "static/media/logo.png": "/Escape-Aix/static/media/logo.3a2d51c6b18e10ce372b.png",
+    "static/media/icon-developpement-durable.png": "/Escape-Aix/static/media/icon-developpement-durable.3cfaf3f7f5293b2b8d58.png",
+    "index.html": "/Escape-Aix/index.html",
+    "main.2aaa3095.css.map": "/Escape-Aix/static/css/main.2aaa3095.css.map",
+    "main.cb670f2f.js.map": "/Escape-Aix/static/js/main.cb670f2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aaa3095.css",
+    "static/js/main.cb670f2f.js"
+  ]
+}
