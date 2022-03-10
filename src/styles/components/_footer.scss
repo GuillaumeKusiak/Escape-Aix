@@ -1,0 +1,45 @@
+.footer{
+  font-size: 20px;
+  margin-top: 5em;
+  width: 100%;
+  background-color: #321fc2;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+
+  ul{
+    list-style-type: circle;
+  }
+
+  .others-links{
+    margin: 1em 0 1em 0;
+
+    ul{
+      margin: 0 0 0 2em;
+    }
+    a{
+      transition: .4s ease-in-out;
+      text-decoration: none;
+      font-size: 0.7em;
+      font-family: 'Russo One', sans-serif;
+      color: white;
+      letter-spacing: 0.05em;
+    }
+
+  }
+
+  h2{
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+  }
+}

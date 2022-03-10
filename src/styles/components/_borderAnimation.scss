@@ -1,0 +1,44 @@
+.border-animation{
+  font-size: 20px;
+  position: relative;
+  animation: 8s  infinite border;
+  width: 20em;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(251,251,251);
+  background: -moz-linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(51,138,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(51,138,255,1) 100%);
+  background: linear-gradient(90deg, rgba(251,251,251,1) 0%, rgba(51,138,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbfbfb",endColorstr="#338aff",GradientType=1);
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+  @media screen  and (max-width: 1000px){
+    font-size: 10px;
+  }
+  @media screen and (max-width: 600px){
+    font-size: 6px;
+  }
+
+  @keyframes border {
+    0%{
+      transform: translateX(0);
+    }
+    25%{
+      transform: translateX(18em);
+    }
+    50%{
+      transform: translateX(0);
+    }
+    75%{
+      transform: translateX(-18em);
+    }
+    100%
+    {
+      transform: translateX(0);
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.apropos{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+
+  .teams{
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+  }
+  .para-infos{
+    letter-spacing: 0.05em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+  }
+  .authors li{
+    font-size: 0.9em;
+    list-style-type: circle;
+    margin-left: 2em;
+  }
+}

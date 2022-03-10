@@ -1,0 +1,45 @@
+.container{
+  font-size: 20px;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3em;
+
+  @media screen and (max-width: 1400px){
+    font-size: 16px;
+  }
+
+
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16em;
+  padding: 2em;
+
+  img{
+    width: 10em;
+    height: 10em;
+  }
+
+  .box-title{
+    margin: 1em 0 1em 0;
+    color: #321fc2;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.2em;
+  }
+
+  .box-paragraph{
+    font-size: 0.8em;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+  }
+}
