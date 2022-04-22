@@ -12,7 +12,7 @@ ___
 ### Présentation 📃
 Création d'un escape game (jeu d'évasion) numérique et élaboration d'une stratégie de communication du jeu. Ce projet est en lien avec la ressource SAE 2.06 du BUT Informatique, intitulé ```Organisation d'un travail en équipe```.
 
-PS : pour essayer notre escape game numérique, veuillez-vous rendre sur l'onglet [Nos scénarios](https://guillaumekusiak.github.io/Escape-Aix/nos-scenarios).
+PS : pour essayer notre escape game numérique, veuillez-vous rendre sur l'onglet [Nos scénarios](https://guillaumekusiak.github.io/Escape-Aix/nos-scenarios/).
 
 Pour la stratégie de communication, nous avons : 
 - Créer des ```affiches publicitaires``` et des ```prospectus```
